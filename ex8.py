@@ -13,10 +13,10 @@ n3 = int(input('Insira a 3º nota :'))
 
 media = (n1 + n2 + n3) / 3
 
-if  media > 7:
+if  media >= 7:
     print('Parabéns {}! Você foi aprovado'.format(name))
 
-elif   media < 7 and media > 5:
+elif   media < 7 and media >= 5:
     print('Você ficou com média {} e está de recuperação'.format(media))
 
 elif  media < 5:
